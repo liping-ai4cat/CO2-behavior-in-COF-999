@@ -1,0 +1,12 @@
+host: fal157  cpus-per-task: 32  python: /projects/hxin_lab_storage/lipingliu/conda_env/fairchem-v3/bin/python
+[COF-998] loaded 10000 frames in 9.5s; computing SASA ...
+[COF-998] f_acc=0.061+/-0.002 | <group-SASA/amine>=1.06+/-0.05 A^2 | <N-SASA>=0.21 | crowd=33.06 | phi=0.056 | nfr=10000 | 650.4s
+[COF-999] loaded 10000 frames in 23.3s; computing SASA ...
+[COF-999] f_acc=0.147+/-0.005 | <group-SASA/amine>=2.87+/-0.11 A^2 | <N-SASA>=0.47 | crowd=34.01 | phi=0.199 | nfr=10000 | 369.2s
+[COF-1000] loaded 10000 frames in 32.7s; computing SASA ...
+[COF-1000] f_acc=0.155+/-0.004 | <group-SASA/amine>=3.58+/-0.09 A^2 | <N-SASA>=0.73 | crowd=33.42 | phi=0.275 | nfr=10000 | 409.5s
+/scratch/lipingliu/benckmarking_OMC_with_DFT/mutilayers_all/fine-tune-v10-round2-SOAP/COF-999/balance_simulation_100ps/114+CO2/amine_accessibility_analysis/accessibility.py:293: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  ax[0].boxplot([np.array(s['_per_amine_group_sasa']) for s in summaries], labels=names, showmeans=True)
+Saved plots.
+Saved accessibility_summary.json to /scratch/lipingliu/benckmarking_OMC_with_DFT/mutilayers_all/fine-tune-v10-round2-SOAP/COF-999/balance_simulation_100ps/114+CO2/amine_accessibility_analysis
+DONE exit=0

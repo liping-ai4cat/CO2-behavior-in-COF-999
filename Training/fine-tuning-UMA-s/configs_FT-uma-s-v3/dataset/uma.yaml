@@ -1,0 +1,46 @@
+snapshot_dir: /scratch/lipingliu/COF_999_CO2_capture/fine-tuning
+omol_final_snapshot_dir: omol/250430-release
+
+omc_train:
+  splits:
+    train:
+      src: ${dataset.snapshot_dir}/fine-tune-v10-selection_SOAP_latent/round2_SOAP/COF-999/train
+  format: ase_db
+  a2g_args:
+    r_energy: True
+    r_forces: True
+    r_stress: ${regress_stress}
+    r_edges: ${cpu_graph}
+    radius: ${cutoff_radius}
+    max_neigh: ${max_neighbors}
+  key_mapping:
+    energy: omc_energy
+    forces: ${omc_forces_key}
+    stress: omc_stress
+  transforms:
+    common_transform:
+      dataset_name: omc
+    stress_reshape_transform:
+      dataset_name: omc
+
+omc_val:
+  splits:
+    val:
+      src: ${dataset.snapshot_dir}/fine-tune-v10-selection_SOAP_latent/round2_SOAP/COF-999/val
+  format: ase_db
+  a2g_args:
+    r_energy: True
+    r_forces: True
+    r_stress: ${regress_stress}
+    r_edges: ${cpu_graph}
+    radius: ${cutoff_radius}
+    max_neigh: ${max_neighbors}
+  key_mapping:
+    energy: omc_energy
+    forces: ${omc_forces_key}
+    stress: omc_stress
+  transforms:
+    common_transform:
+      dataset_name: omc
+    stress_reshape_transform:
+      dataset_name: omc

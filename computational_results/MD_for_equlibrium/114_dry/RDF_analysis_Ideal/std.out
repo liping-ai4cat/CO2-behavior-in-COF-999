@@ -1,0 +1,23 @@
+/scratch/lipingliu/benckmarking_OMC_with_DFT/mutilayers_all/fine-tune-v9/COF-999/114/AA/RDF_analysis/plot_rdf.py:183: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Distance $r$ ($\AA$)')
+--- Starting Parallel RDF for N-N ---
+Processing 1 file(s): ['../MD_round1.traj']
+Total frames detected: 1111
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_NN_averaged.csv
+Plot saved to rdf_NN_averaged.png
+--- Starting Parallel RDF for C-C ---
+Processing 1 file(s): ['../MD_round1.traj']
+Total frames detected: 1111
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_CC_averaged.csv
+Plot saved to rdf_CC_averaged.png
+--- Starting Parallel RDF for C-N ---
+Processing 1 file(s): ['../MD_round1.traj']
+Total frames detected: 1111
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_CN_averaged.csv
+Plot saved to rdf_CN_averaged.png

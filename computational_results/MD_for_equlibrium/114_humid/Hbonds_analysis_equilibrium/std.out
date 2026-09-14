@@ -1,0 +1,8 @@
+/scratch/lipingliu/benckmarking_OMC_with_DFT/mutilayers_all/fine-tune-v10-round2-SOAP/COF-999-humid-v2-starting-isolated/balance_simulation_100ps/64H2O/Hbonds_analysis_elliptical/Hbonds_elliptical.py:172: SyntaxWarning: invalid escape sequence '\A'
+  ax.set_xlabel(f'{pair_key} Distance ($\AA$)')
+--- Analysis: Last 10000 frames (Stride=1) on 64 cores ---
+Analysis complete. Aggregating results...
+Data saved: HBond_Data_N-N.csv
+Data saved: HBond_Data_N-O.csv
+Data saved: HBond_Data_O-O.csv
+Data saved: HBond_Data_O-N.csv

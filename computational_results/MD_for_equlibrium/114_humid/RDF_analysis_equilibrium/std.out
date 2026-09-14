@@ -1,0 +1,26 @@
+/scratch/lipingliu/benckmarking_OMC_with_DFT/mutilayers_all/fine-tune-v10-round2-SOAP/COF-999-humid-v2-starting-isolated/balance_simulation_100ps/64H2O/RDF_analysis/plot_rdf.py:188: SyntaxWarning: invalid escape sequence '\A'
+  plt.xlabel('Distance $r$ ($\AA$)')
+--- Starting Parallel RDF for N-N ---
+Processing last 10000 frames of: ['../MD_UMA_final.traj']
+File ../MD_UMA_final.traj: Total 10302 frames. Analysis range: 302 -> 10302 (10000 frames)
+Total frames to analyze: 10000
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_NN_last10000.csv
+Plot saved to rdf_NN_last10000.png
+--- Starting Parallel RDF for N-O ---
+Processing last 10000 frames of: ['../MD_UMA_final.traj']
+File ../MD_UMA_final.traj: Total 10302 frames. Analysis range: 302 -> 10302 (10000 frames)
+Total frames to analyze: 10000
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_NO_last10000.csv
+Plot saved to rdf_NO_last10000.png
+--- Starting Parallel RDF for O-O ---
+Processing last 10000 frames of: ['../MD_UMA_final.traj']
+File ../MD_UMA_final.traj: Total 10302 frames. Analysis range: 302 -> 10302 (10000 frames)
+Total frames to analyze: 10000
+Total parallel tasks: 32
+Aggregating results...
+Data saved to rdf_OO_last10000.csv
+Plot saved to rdf_OO_last10000.png

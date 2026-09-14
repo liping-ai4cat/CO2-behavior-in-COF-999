@@ -1,0 +1,27 @@
+Reading data from: ../../../analysis_output/v7_all/job_results_updated.csv
+Total entries: 80
+Part 1 (dG < 0, Ga < 140): 23 jobs found.
+Part 2 (dG < 0, Ga > 140): 25 jobs found.
+
+Starting analysis of sB trajectories...
+📂 Processing part_1 (23 jobs)...
+📂 Processing part_2 (25 jobs)...
+
+✅ Analysis complete. Data saved to species_analysis_sB.csv
+  jobid partition  total_frames  ... count_NCOO-  count_NCOOH  count_Other
+0  1641    part_1           200  ...           0            0            0
+1  1646    part_1           200  ...         188           12            0
+2  1649    part_1           200  ...         126           74            0
+3  1654    part_1           200  ...           0            0            0
+4  1655    part_1           200  ...           0            0            0
+
+[5 rows x 10 columns]
+
+Distribution of Dominant Species:
+dominant_species
+NHCOO- (Carbamate)              17
+NHCOOH (Carbamic Acid)          11
+NCOO (Carbamate Radical/Ion)    10
+NCOOH                            9
+Other (0H_N, 2H_O)               1
+Name: count, dtype: int64

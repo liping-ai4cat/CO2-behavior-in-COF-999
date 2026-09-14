@@ -1,0 +1,46 @@
+# ---------------------------------------------------------------------------
+# Bulk data lives in the Zenodo record, not in git.
+#
+# The paths below exceed what a git repository should carry (20 files are over
+# GitHub's 100 MB hard limit; together they are ~13.8 GB). They are NOT missing
+# from the release -- they are deposited in the companion data record, under
+# these exact paths. See "Where the files are" in README.md.
+#
+# Ignoring them here means `git add -A` yields the ~186 MB code repository
+# without any manual pruning.
+# ---------------------------------------------------------------------------
+
+# Model checkpoints (1.1 GB each)
+*.pt
+
+# Metadynamics stationary-point trajectories (8.3 GB) and the strided example run
+stationary_points_src/
+meta_40_stride.traj
+
+# DFT training trajectory (159 MB) and the worked VASP example (453 MB)
+DFT_Dataset/train/
+DFT_Dataset/VASP-input/
+
+# Per-component benchmark error tables (1.7 GB) and force parity plots (1.3 GB)
+all_force_component_errors.csv
+*forces_components.pdf
+
+# Per-system MLIP prediction trajectories (0.57 GB)
+uma.traj
+
+# Superseded 8-system benchmark run
+backup/
+
+# ---------------------------------------------------------------------------
+# Housekeeping
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+._*
+
+# Zenodo staging area (~14 GB of archives) and any local API tokens
+_zenodo_upload/
+*.token
+token-*

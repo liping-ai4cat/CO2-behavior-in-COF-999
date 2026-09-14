@@ -1,0 +1,49 @@
+jobid,partition,total_frames,dominant_species,count_NHCOOH,count_NHCOO-,count_NH2COO,count_NCOO-,count_NCOOH,count_Other
+1641,part_1,200,NHCOO- (Carbamate),10,190,0,0,0,0
+1646,part_1,200,NCOO (Carbamate Radical/Ion),0,0,0,188,12,0
+1649,part_1,200,NCOO (Carbamate Radical/Ion),0,0,0,126,74,0
+1654,part_1,200,NHCOO- (Carbamate),5,195,0,0,0,0
+1655,part_1,200,NHCOOH (Carbamic Acid),186,14,0,0,0,0
+1674,part_1,200,NCOOH,0,0,0,78,122,0
+1683,part_1,200,NHCOO- (Carbamate),98,102,0,0,0,0
+1685,part_1,200,NHCOOH (Carbamic Acid),181,19,0,0,0,0
+1691,part_1,200,NHCOOH (Carbamic Acid),126,74,0,0,0,0
+1699,part_1,200,NCOOH,0,0,0,20,180,0
+1701,part_1,200,NHCOO- (Carbamate),1,199,0,0,0,0
+1702,part_1,200,NHCOO- (Carbamate),0,101,0,0,0,99
+1710,part_1,200,NHCOOH (Carbamic Acid),133,67,0,0,0,0
+1712,part_1,200,NHCOO- (Carbamate),27,173,0,0,0,0
+1714,part_1,200,NHCOO- (Carbamate),0,200,0,0,0,0
+1715,part_1,200,NCOOH,2,0,0,0,184,14
+1720,part_1,200,NHCOO- (Carbamate),6,194,0,0,0,0
+1732,part_1,200,NCOO (Carbamate Radical/Ion),0,0,0,200,0,0
+1733,part_1,200,NCOO (Carbamate Radical/Ion),0,0,0,179,21,0
+1740,part_1,200,NHCOOH (Carbamic Acid),197,3,0,0,0,0
+1743,part_1,200,NHCOO- (Carbamate),6,194,0,0,0,0
+1750,part_1,200,NHCOO- (Carbamate),0,200,0,0,0,0
+1751,part_1,200,NHCOO- (Carbamate),11,189,0,0,0,0
+1638,part_2,200,NHCOOH (Carbamic Acid),200,0,0,0,0,0
+1639,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,183,17,0
+1644,part_2,200,NCOOH,0,0,0,42,158,0
+1645,part_2,200,NCOOH,0,0,0,86,114,0
+1650,part_2,200,NHCOO- (Carbamate),90,110,0,0,0,0
+1651,part_2,200,"Other (0H_N, 2H_O)",0,0,0,0,0,200
+1653,part_2,200,NHCOOH (Carbamic Acid),151,49,0,0,0,0
+1660,part_2,200,NHCOOH (Carbamic Acid),120,80,0,0,0,0
+1668,part_2,200,NHCOO- (Carbamate),68,132,0,0,0,0
+1671,part_2,200,NHCOOH (Carbamic Acid),157,43,0,0,0,0
+1672,part_2,200,NCOOH,0,0,0,61,139,0
+1678,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,183,17,0
+1680,part_2,200,NHCOO- (Carbamate),0,200,0,0,0,0
+1690,part_2,200,NHCOOH (Carbamic Acid),168,32,0,0,0,0
+1704,part_2,200,NCOOH,0,0,0,52,148,0
+1706,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,199,1,0
+1709,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,200,0,0
+1711,part_2,200,NHCOO- (Carbamate),72,128,0,0,0,0
+1721,part_2,200,NHCOOH (Carbamic Acid),197,3,0,0,0,0
+1731,part_2,200,NHCOO- (Carbamate),18,182,0,0,0,0
+1735,part_2,200,NCOOH,0,0,0,98,102,0
+1737,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,197,3,0
+1738,part_2,200,NCOO (Carbamate Radical/Ion),0,0,0,175,25,0
+1739,part_2,200,NCOOH,0,0,0,44,156,0
+1744,part_2,200,NHCOO- (Carbamate),1,199,0,0,0,0
