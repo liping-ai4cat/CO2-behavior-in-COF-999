@@ -6,14 +6,14 @@ This repository holds the data and code supporting:
 > Liping Liu, Zihui Zhou, Hilal Daglar, Ilja Siepmann*, Omar M. Yaghi*, Laura Gagliardi*
 > ChemRxiv, https://doi.org/10.26434/chemrxiv.15003518/v3
 
-Amine-functionalised covalent organic frameworks capture CO2 from air, but the reactive
-step — CO2 inserting into an amine to form a carbamate — is too slow and too rare to reach
-with direct DFT molecular dynamics on a framework of this size. This work closes that gap
-in four stages: label a diverse set of COF structures with DFT, fine-tune Meta's **UMA-S**
-machine-learning interatomic potential (MLIP) on them, verify the fine-tuned model against
-DFT on held-out chemistry, and then use it to run the nanosecond-scale simulations that DFT
+Amine-appended covalent organic frameworks-999 (COF-999) capture CO2 directly from air, but the reactive
+step — CO2 chemisorption into an amine to form a carbamate/carbamic acid/bicarbonate — is real events and out of thereaches
+of ab initio molecular dynamics on a framework of this size (~2500 atoms). This work closes that gap
+in four stages: create a diverse set of COF dataset with DFT, fine-tune FAIRChem's **UMA-S**
+machine-learned interatomic potential (MLIP) on them, verify the fine-tuned model against
+DFT and pretrained models, and then use it to run the nanosecond-scale simulations that DFT
 cannot afford — simulated annealing to find the framework's stacking, 100 ps equilibrium MD
-to characterise its hydrogen-bond network and amine accessibility, and 80 well-tempered
+to characterise its hydrogen-bond network and amine accessibility, and 160 well-tempered
 metadynamics windows to obtain per-amine CO2 chemisorption free energies in dry and humid
 conditions.
 
