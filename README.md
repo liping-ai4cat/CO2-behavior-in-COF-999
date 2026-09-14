@@ -8,7 +8,7 @@ This repository holds the data and code supporting:
 
 Amine-appended covalent organic frameworks-999 (COF-999) capture CO2 directly from air, but the reactive
 step — CO2 chemisorption into an amine to form a carbamate/carbamic acid/bicarbonate — is real events and out of thereaches
-of ab initio molecular dynamics on a framework of this size (~2500 atoms). This work closes that gap
+of ab initio molecular dynamics on a framework of this size (~2000 atoms). This work closes that gap
 in four stages: create a diverse set of COF dataset with DFT, fine-tune FAIRChem's **UMA-S**
 machine-learned interatomic potential (MLIP) on them, verify the fine-tuned model against
 DFT and pretrained models, and then use it to run the nanosecond-scale simulations that DFT
