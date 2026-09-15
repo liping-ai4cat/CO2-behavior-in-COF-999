@@ -136,6 +136,8 @@ PCA(200) → t-SNE map colouring clusters and overlaying each round's selections
 > Note: the script's docstring asks for `dscribe==2.1.1`; the environment actually used was
 > **2.1.2**. See [Software environment](#software-environment).
 
+**Ready-to-use package** available at https://github.com/liping-ai4cat/Diversity_Selection
+
 ## 2. DFT reference data
 
 ### Calculation settings
